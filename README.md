@@ -2,7 +2,7 @@
 
 ## What's this
 
-This Docker image is used to build RPM packages in Dockernized envirionment.
+This Docker image is used to build RPM packages in Dockernized envirionment.  It's based on [CentOS official Docker image](https://hub.docker.com/_/centos/).
 
 This image is intended to build [mackerel-agent](https://github.com/mackerelio/mackerel-agent), but maybe you can use this image to build another packages.
 
@@ -18,4 +18,6 @@ $ docker run --rm -v "$(PWD)":/workspace -v "$(PWD)/rpmbuild":/rpmbuild astj:doc
 
 ## Tags
 
-TBD (We'd like to provide `c6`, `c7` tag)
+- `c5` : based on `centos:5`
+- `c6` : based on `centos:6`
+- `c7` : based on `centos:7`
