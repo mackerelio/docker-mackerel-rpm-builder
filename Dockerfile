@@ -4,6 +4,7 @@ RUN yum install -y \
   git \
   make \
   rpm-build \
+  rpm-sign \
   && yum clean all
 
 # rpm build directory
