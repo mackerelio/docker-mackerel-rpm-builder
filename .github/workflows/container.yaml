@@ -32,4 +32,4 @@ jobs:
           platforms: linux/amd64
           push: true
           tags: |
-            ghcr.io/${{ github.repository_owner }}/mackerel-rpm-builder:${{ github.ref.name }}
+            ghcr.io/${{ github.repository_owner }}/mackerel-rpm-builder:${{ github.ref_name }}
